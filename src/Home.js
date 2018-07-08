@@ -15,7 +15,7 @@ class Home extends Component {
         </p>
         </div>
         <div>
-          <img src="./words.png" alt="Technologies" />
+          <img className="technologies" src="./portfolio.jpg" alt="Technologies" />
 
         </div>
       </div>
