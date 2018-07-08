@@ -27,9 +27,52 @@ a:hover {
     padding: 1em;
 }
 
-.tripster {
-    height: 1em;
-    width: 1em;
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 25em;
+    background-color:yellow;
+    border-radius: 5%;
+    margin-left: 3em;
+  
+}
+
+.cards {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-image {
+    margin-top: 1.5em;
+}
+
+.card-container {
+    padding: 3em 3em;
+   
+
+}
+
+.card-name {
+    font-size: 2em;
+    font-weight: bold;
+    color: darkcyan;
+}
+
+.card-description {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: darkcyan;
+}
+.card-reveal {
+    color: darkcyan;
+
+}
+
+.card-text {
+        color: darkcyan;
+
 }
 
 @media only screen and (max-width: 470px) {
