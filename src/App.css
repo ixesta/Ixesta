@@ -33,9 +33,11 @@ a:hover {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 25em;
-    background-color:yellow;
+    background-color:darkcyan;
     border-radius: 5%;
     margin-left: 3em;
+    border: .3em solid yellow;
+   
   
 }
 
@@ -60,21 +62,21 @@ a:hover {
 .card-name {
     font-size: 2em;
     font-weight: bold;
-    color: darkcyan;
+    color: yellow;
 }
 
 .card-description {
     font-size: 1.2em;
     font-weight: bold;
-    color: darkcyan;
+    color: yellow;
 }
 .card-reveal {
-    color: darkcyan;
+    color: yellow;
 
 }
 
 .card-text {
-        color: darkcyan;
+        color: yellow;
 
 }
 
