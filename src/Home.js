@@ -11,7 +11,7 @@ class Home extends Component {
 
         <div class="learning">
           <p>Software developer recently graduated from the
-            <a href="https://northcoders.com" target="_blank">Northcoders</a> coding bootcamp.
+            <a href="https://northcoders.com" target="_blank"> Northcoders</a> coding bootcamp.
         </p>
         </div>
         <div>

@@ -4,8 +4,15 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        Contact
-    </div>
+        <div class="talk">
+          <p>Have a question or want to work together?</p>
+        </div>
+        <div>
+          <a href="https://twitter.com/ixesta">
+            <img src="./message.png" alt="Message" />
+          </a>
+        </div>
+      </div>
     )
 
   }
