@@ -7,7 +7,7 @@ class Portfolio extends Component {
 
         <div class="card">
           <div class="card-image">
-            <img class="activator" src="/Tripster/logo.png" alt="" width='40%' />
+            <img class="activator" src="/Tripster/logo2.png" alt="" width='40%' />
           </div>
           <div class="card-content">
             <p class="card-name">Tripster</p>
