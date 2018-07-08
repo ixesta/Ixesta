@@ -1,1 +1,1 @@
-Deployed version https://ixesta.com/
+Deployed version https://ixesta.herokuapp.com/
