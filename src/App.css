@@ -27,6 +27,11 @@ a:hover {
     padding: 1em;
 }
 
+.tripster {
+    height: 1em;
+    width: 1em;
+}
+
 @media only screen and (max-width: 470px) {
     .social {
    justify-content: center;

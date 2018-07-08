@@ -13,17 +13,17 @@ class App extends Component {
           <div className='social'>
 
             <p>
-              <a href="https://linkedin.com" target="_blank">
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
                 <img src="./linkedin.png" alt="Linkedin" />
               </a>
             </p>
             <p>
-              <a href="https://twitter.com/ixesta" target="_blank">
+              <a href="https://twitter.com/ixesta" target="_blank" rel="noopener noreferrer">
                 <img src="./twitter.png" alt="Twitter" />
               </a>
             </p>
             <p>
-              <a href="https://github.com/ixesta" target="_blank">
+              <a href="https://github.com/ixesta" target="_blank" rel="noopener noreferrer">
                 <img src="./github.png" alt="GitHub" />
               </a>
             </p>
