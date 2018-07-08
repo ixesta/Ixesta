@@ -1,26 +1,59 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-// import Homepage from './Homepage';
-// import Portfolio from './Portfolio';
-// import Contact from './Contact';
+import Home from './Home';
+import Portfolio from './Portfolio';
+import Contact from './Contact';
 
 class App extends Component {
   render() {
     return (
       <Router>
         <div>
-          <Link to='/'>
-            <button><img src="../public/ixesta.png" alt="Home" /></button>
-          </Link>
+          <div className='social'>
+
+            <p>
+              <a href="https://linkedin.com" target="_blank">
+                <img src="./linkedin.png" alt="Linkedin" />
+              </a>
+            </p>
+            <p>
+              <a href="https://twitter.com/ixesta" target="_blank">
+                <img src="./twitter.png" alt="Twitter" />
+              </a>
+            </p>
+            <p>
+              <a href="https://github.com/ixesta" target="_blank">
+                <img src="./github.png" alt="GitHub" />
+              </a>
+            </p>
+          </div>
+          <div class="avatar">
+            <Link to="/">
+              <img src="/ixesta.png" alt="Home" />
+            </Link>
+          </div>
+
+          <nav class="nav_bar">
+            <p>
+              <Link to="/portfolio">portfolio</Link>
+            </p>
+            <p>
+              <Link to="/contact">contact</Link>
+            </p>
+          </nav>
+
+
+
+          <Route exact path="/" component={Home} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/contact" component={Contact} />
         </div>
-        {/* <Route exact path="/" component={Homepage} /> */}
-        {/* <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/contact" component={Contact} /> */}
       </Router>
     )
   }
+
+
 }
 
 export default App;
