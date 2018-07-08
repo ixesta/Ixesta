@@ -1,28 +1,206 @@
-.App {
-  text-align: center;
+html {
+    background-color: darkcyan;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+a {
+    text-decoration: none;
+    color: yellow;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+a:hover {
+    color: black;
+    font-size: 1.5em;
 }
 
-.App-title {
-  font-size: 1.5em;
+.social {
+    display: flex;
+    justify-content: flex-end;
+    height: 8em;
+    width: auto;
 }
 
-.App-intro {
-  font-size: large;
+.social img {
+    height: 3em;
+    width: auto;
+    padding: 1em;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+@media only screen and (max-width: 470px) {
+    .social {
+   justify-content: center;
+    }
+}
+
+.avatar img {
+    border-radius: 100%;
+    width: 15em;
+    height: auto;
+    padding-top: 1em;
+}
+
+nav {
+    display: flex;
+    justify-content: center; 
+}
+
+nav a {
+    font-size: 1.5em;
+    display: inline;
+    padding: 1em;
+}
+
+@media only screen and (max-width: 470px) {
+    nav {
+        display: block;
+    }
+}
+
+.name {
+    font-size: 3.5em;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+
+.learning {
+    font-size: 2em;
+    color: white;
+}
+
+.nclogo img {
+    width: 15.5em;
+    height: auto;
+}
+
+.learn-lang {
+    font-size: 2em;
+    color: white;
+    padding-top: 1em;
+}
+
+.languages svg {
+    width: 6.25em;
+    height: auto;
+    padding: 2em;
+}
+
+@media only screen and (max-width: 470px) {
+    .languages svg {
+        width: 3em;
+        height: auto;
+        padding: 0.5em;
+    }
+}
+
+.licences {
+    font-size: 0.75em;
+    color: white;
+    padding-top: 3em;
+}
+
+.licences_portfolio {
+    font-size: 0.75em;
+    color: white;
+    padding-top: 12em;
+    
+}
+.talk {
+    color: white;
+    font-size: 2em;
+}
+
+.about p {
+   margin: 0 3em 0 3em;
+    color: white;
+    font-size: 1.5em;
+}    
+    
+.under {
+    font-size: 3.5em;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    padding-top: 1em;
+}
+
+@media only screen and (max-width: 470px) {
+    .under {
+        font-size: 2.5em;
+        justify-content: center;
+    }
+}    
+
+.contact_form{
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 16px;
+    background: #F7F7F7;
+    border-radius: 5%;
+}
+
+.contact_form h1{
+    background: darkcyan;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+}
+
+.contact_form input[type="text"],
+.contact_form input[type="date"],
+.contact_form input[type="datetime"],
+.contact_form input[type="email"],
+.contact_form input[type="number"],
+.contact_form input[type="search"],
+.contact_form input[type="time"],
+.contact_form input[type="url"],
+.contact_form textarea,
+.contact_form select {
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 0.2em solid darkcyan;
+    padding: 3%;
+    color: darkcyan;
+    font-size: 1em;
+}
+
+.contact_form input[type="text"]:focus,
+.contact_form input[type="date"]:focus,
+.contact_form input[type="datetime"]:focus,
+.contact_form input[type="email"]:focus,
+.contact_form input[type="number"]:focus,
+.contact_form input[type="search"]:focus,
+.contact_form input[type="time"]:focus,
+.contact_form input[type="url"]:focus,
+.contact_form textarea:focus,
+.contact_form select:focus {
+    box-shadow: darkcyan;
+    padding: 3%;
+    border: 0.2em solid darkcyan;
+}
+
+.contact_form input[type="submit"],
+.contact_form input[type="button"] {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 50%;
+    padding: 3%;
+    background: darkcyan;
+    font-size: 1em;
+    color:yellow; 
+}
+
+.contact_form input[type="submit"]:hover,
+.contact_form input[type="button"]:hover{
+    background: darkcyan;
 }
