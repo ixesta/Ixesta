@@ -1,1 +1,1 @@
-Chekout my portfolio!
+Deployed version https://ixesta.com/
