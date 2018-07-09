@@ -8,6 +8,9 @@ class Portfolio extends Component {
         <div class="card">
           <div class="card-image">
             <img class="activator" src="/Tripster/logo2.png" alt="" width='40%' />
+            {/* <video width="320" height="240" controls>
+              <source src="/tripster.mp4" type="video/mp4" />>
+            </video> */}
           </div>
           <div class="card-content">
             <p class="card-name">Tripster</p>
@@ -15,8 +18,8 @@ class Portfolio extends Component {
 
           </div>
           <div class="card-reveal">
-            <p><a class="card-text" href="https://youtu.be/T0vEevoHbC0">Video</a></p>
-            <p><a class="card-text" href="https://github.com/ixesta/Tripster">GitHub repo</a></p>
+            <p><a class="card-text" href="/tripster.mp4" target="_blank">Video</a></p>
+            <p><a class="card-text" href="https://github.com/ixesta/Tripster" target="_blank">GitHub repo</a></p>
 
           </div>
         </div>
@@ -33,8 +36,8 @@ class Portfolio extends Component {
           </div>
           <div class="card-reveal">
 
-            <p ><a class="card-text" href="https://ro-nc-app.herokuapp.com/">Deployed version</a></p>
-            <p><a class="card-text" href="https://github.com/ixesta/NC-News-FE">Github repo</a></p>
+            <p ><a class="card-text" href="https://ro-nc-app.herokuapp.com/" target="_blank">Deployed version</a></p>
+            <p><a class="card-text" href="https://github.com/ixesta/NC-News-FE" target="_blank">Github repo</a></p>
 
           </div>
         </div>
