@@ -15,7 +15,7 @@ class Portfolio extends Component {
 
           </div>
           <div class="card-reveal">
-
+            <p><a class="card-text" href="https://youtu.be/T0vEevoHbC0">Video</a></p>
             <p><a class="card-text" href="https://github.com/ixesta/Tripster">GitHub repo</a></p>
 
           </div>
