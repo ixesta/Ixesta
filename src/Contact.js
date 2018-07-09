@@ -9,7 +9,7 @@ class Contact extends Component {
         </div>
         <div>
           <a href="https://www.linkedin.com/in/rocio-membrilla" target="_blank">
-            <img src="./message.png" alt="Message" />
+            <img className='linkedin' src="./linkedin2.png" alt="Message" />
           </a>
         </div>
       </div>
