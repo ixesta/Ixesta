@@ -13,7 +13,7 @@ class App extends Component {
           <div className='social'>
 
             <p>
-              <a href="www.linkedin.com/in/rocio-membrilla" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/rocio-membrilla" target="_blank" rel="noopener noreferrer">
                 <img src="./linkedin.png" alt="Linkedin" />
               </a>
             </p>
