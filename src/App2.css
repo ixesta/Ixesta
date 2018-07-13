@@ -24,7 +24,7 @@ a:hover {
 
 .social {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     height: 8em;
     width: auto;
 }
