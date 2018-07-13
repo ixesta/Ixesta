@@ -27,7 +27,7 @@ class Portfolio extends Component {
 
         <div class="card">
           <div class="card-image">
-            <img class="activator" src="/typewriter.png" alt="" width='40%' />
+            <img class="activator" src="/typewriter2.png" alt="" width='40%' />
           </div>
           <div class="card-content">
             <p class="card-name">NC News</p>
@@ -37,7 +37,7 @@ class Portfolio extends Component {
           <div class="card-reveal">
 
             <p ><a class="card-text" href="https://ro-nc-app.herokuapp.com/" target="_blank">Deployed version</a></p>
-            <p><a class="card-text" href="https://github.com/ixesta/NC-News-FE" target="_blank">Github repo</a></p>
+            <p><a class="card-text" href="https://github.com/ixesta/NC-News-FE" target="_blank">GitHub repo</a></p>
 
           </div>
         </div>
