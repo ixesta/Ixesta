@@ -11,6 +11,7 @@ class App extends Component {
     return (
       <Router>
         <div>
+
           <div className='social'>
 
             <p>
@@ -29,6 +30,7 @@ class App extends Component {
               </a>
             </p>
           </div>
+
           <div class="avatar">
             <Link to="/">
               <img src="/ixesta.png" alt="Home" />
@@ -43,8 +45,6 @@ class App extends Component {
               <Link to="/contact">contact</Link>
             </p>
           </nav>
-
-
 
           <Route exact path="/" component={Home} />
           <Route exact path="/portfolio" component={Portfolio} />

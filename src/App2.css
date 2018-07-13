@@ -1,12 +1,16 @@
 html {
-    background-color: #e5f5ef;
-    text-align: center;
+    background-color: lightgray;
     font-family: 'Comfortaa', cursive;
 }
 
 a {
     text-decoration: none;
     color: darkcyan;
+}
+
+.name {
+font-family: 'Sofia', cursive;
+text-align: center;
 }
 
 .nc {
@@ -88,17 +92,18 @@ a:hover {
     max-block-size: 15em;
 }
 
-@media only screen and (max-width: 470px) {
-    .social {
-   justify-content: center;
-    }
-}
 
 .avatar img {
     border-radius: 100%;
-    width: 15em;
+    width: 8em;
     height: auto;
     padding-top: 1em;
+    
+}
+
+.avatar {
+    margin-left: 3em;
+
 }
 
 nav {
@@ -115,6 +120,10 @@ nav a {
 @media only screen and (max-width: 470px) {
     nav {
         display: block;
+    }
+
+    .social {
+   justify-content: center;
     }
 }
 
