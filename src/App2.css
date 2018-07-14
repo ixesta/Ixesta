@@ -140,9 +140,14 @@ nav a {
     text-align: center;
 }
 
-.technologies {
-    max-block-size: 54em;
+.tech-container {
+    display: flex;
     justify-content: center;
+}
+
+.technologies {
+    max-block-size: 46em;
+    
 }
 
 

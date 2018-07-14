@@ -12,7 +12,7 @@ class Home extends Component {
         <div class="learning">
           <p>Software developer</p>
         </div>
-        <div>
+        <div class='tech-container'>
           <img className="technologies" src="./portfolio.jpg" alt="Technologies" />
 
         </div>
