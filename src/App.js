@@ -20,7 +20,7 @@ class App extends Component {
               </Link>
             </div>
 
-            <div>
+            <div class="social-icons">
               <p>
                 <a href="https://www.linkedin.com/in/rocio-membrilla" target="_blank" rel="noopener noreferrer">
                   <img src="./linkedin.png" alt="Linkedin" />
@@ -47,13 +47,21 @@ class App extends Component {
               <Link to="/portfolio">portfolio</Link>
             </p>
             <p>
-              <Link to="/contact">contact</Link>
+              {/* <Link to="/contact">contact</Link> */}
+              
+    <a href="javascript:void(window.open(
+          'https://form.jotformeu.com/81943877197374',
+          'blank',
+          'scrollbars=yes,
+          toolbar=no,
+          width=700,
+          height=500'))"> contact </a>
             </p>
           </nav>
 
           <Route exact path="/" component={Home} />
           <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} />
+          {/* <Route exact path="/contact" component={Contact} /> */}
         </div>
       </Router>
     )

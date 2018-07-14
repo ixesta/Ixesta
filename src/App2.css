@@ -1,9 +1,8 @@
 html {
     background-color: rgb(179, 178, 178);
     font-family: 'Comfortaa', cursive;
-    margin-left: 30em;
-    margin-right: 30em;
-    margin-top: 1em;
+    
+    margin: 1em 30em 1em 30em;
 }
 
 a {
@@ -64,7 +63,6 @@ a:hover {
 
 .card-content{
     margin-right: 3em;
-    
 }
 
 .card-name {
@@ -81,7 +79,6 @@ a:hover {
 
 .card-reveal {
     color: darkcyan;
-
 }
 
 .card-text {
@@ -110,10 +107,6 @@ a:hover {
     border: lightgrey; 
 }
 
-.avatar {
-    margin-left: 3em;
-}
-
 nav {
     display: flex;
     justify-content: center; 
@@ -126,11 +119,10 @@ nav a {
 }
 
 .form {
-    margin-top: 8em;
+    margin-top: 20em;
     margin-bottom: 50em;
     min-width: 100%;
     height:16em;
-   
 }
 
 .name {
@@ -156,18 +148,6 @@ nav a {
     
 }
 
-.licences {
-    font-size: 0.75em;
-    color: white;
-    padding-top: 3em;
-}
-
-.licences_portfolio {
-    font-size: 0.75em;
-    color: white;
-    padding-top: 12em;
-    
-}
 .talk {
     color:darkcyan;
     font-size: 2em;
@@ -179,29 +159,86 @@ nav a {
     font-size: 1.5em;
 }    
     
-.under {
-    font-size: 3.5em;
-    color: white;
-    font-weight: bold;
-    letter-spacing: 0.2em;
-    padding-top: 1em;
-}
 
 @media only screen and (max-width: 470px) {
-    .social {
+    html {
+        margin: auto;
+    }
+
+    .social .social-icons{
         display: flex;
-        flex-direction: column;
-        width: 4em;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+
+    .social {
+        margin-bottom: 2em;
+    }
+
+    .social img {
+        height: 1.5em;
+        padding: .5em;
+        border: .1em solid darkcyan;
     }
 
     .avatar img{
         width: 4em;
         height: auto;
-        margin-left: 1em;
+        border: lightgrey; 
+    }
+
+    .technologies {
+    max-block-size: 35em;
+    }
+
+    nav a {
+    font-size: 1em;
     }
 
     .name {
-        margin-top: 6em;
+    font-size: 2.5em;
+    color: darkcyan;
+    font-weight: bold;
+    letter-spacing: 0.2em;
     }
+
+    .cards {
+    width: auto;
+    flex-direction: column;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    .card-name {
+        font-size: 1em;
+    }
+
+    .card-image {
+        margin-right: 2em;
+    }
+
+    .cards, .card {
+        margin: 1em auto;
+    }
+
+    .cards .card .card-content {
+        /* margin: 1em; */
+        margin-left: 0em;
+    }
+
+    
+   
+
+    
+
+    
+
+
+
+
+
 }    
 

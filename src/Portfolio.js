@@ -6,8 +6,8 @@ class Portfolio extends Component {
       <div class='cards'>
 
         <div class="card">
-          <div class="card-image">
-            <img src="/Tripster/logo2.png" alt="" width='40%' />
+          <div>
+            <img class="card-image" src="/Tripster/logo2.png" alt="" width='40%' />
             {/* <video width="320" height="240" controls>
               <source src="/tripster.mp4" type="video/mp4" />>
             </video> */}
@@ -25,8 +25,8 @@ class Portfolio extends Component {
 
         <div class="card">
 
-          <div class="card-image">
-            <img src="/typewriter2.png" alt="" width='40%' />
+          <div>
+            <img class="card-image" src="/typewriter2.png" alt="" width='40%' />
           </div>
 
           <div class="card-content">
