@@ -10,9 +10,7 @@ class Home extends Component {
         </div>
 
         <div class="learning">
-          <p>Software developer recently graduated from the
-            <a href="https://northcoders.com" target="_blank" rel="noopener noreferrer" class="nc"> Northcoders</a> coding bootcamp.
-        </p>
+          <p>Software developer</p>
         </div>
         <div>
           <img className="technologies" src="./portfolio.jpg" alt="Technologies" />

@@ -137,18 +137,17 @@ nav a {
 .learning {
     font-size: 2em;
     color:darkcyan;
+    text-align: center;
 }
 
-.nclogo img {
-    width: 15.5em;
-    height: auto;
+.technologies {
+    max-block-size: 54em;
+    justify-content: center;
 }
 
-.learn-lang {
-    font-size: 2em;
-    color: darkcyan;
-    padding-top: 1em;
-}
+
+
+
 
 
 @media only screen and (max-width: 470px) {
@@ -196,43 +195,3 @@ nav a {
     }
 }    
 
-.contact_form{
-    max-width: 400px;
-    margin: 10px auto;
-    padding: 16px;
-    background: #F7F7F7;
-    border-radius: 5%;
-}
-
-.contact_form h1{
-    background: darkcyan;
-    padding: 20px 0;
-    font-size: 140%;
-    font-weight: 300;
-    text-align: center;
-    color: #fff;
-    margin: -16px -16px 16px -16px;
-}
-
-.contact_form input[type="text"],
-.contact_form input[type="date"],
-.contact_form input[type="datetime"],
-.contact_form input[type="email"],
-.contact_form input[type="number"],
-.contact_form input[type="search"],
-.contact_form input[type="time"],
-.contact_form input[type="url"],
-.contact_form textarea,
-.contact_form select {
-    outline: none;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    width: 100%;
-    background: #fff;
-    margin-bottom: 4%;
-    border: 0.2em solid darkcyan;
-    padding: 3%;
-    color: darkcyan;
-    font-size: 1em;
-}
