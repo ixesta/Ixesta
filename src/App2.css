@@ -16,8 +16,6 @@ a {
     text-align: center;
 }
 
-
-
 a:hover {
     color: black;
     font-size: 1.5em;
@@ -26,7 +24,7 @@ a:hover {
 .social {
     display: flex;
     justify-content: space-between;
-    height: 8em;
+    height: 3em;
     width: auto;
 }
 
@@ -39,8 +37,6 @@ a:hover {
     margin-right: 1em;
 }
 
-
-
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -51,9 +47,6 @@ a:hover {
     border: .16em solid darkcyan;
     display: flex;
     margin-left: 4em;
-   
-   
-  
 }
 
 .cards {
@@ -93,7 +86,6 @@ a:hover {
 
 .card-text {
     color: darkcyan;
-
 }
 
 .linkedin {
@@ -104,24 +96,22 @@ a:hover {
 .link {
     max-block-size: 15em;
 }
+
 .talk {
     display: flex;
     justify-content: center;
 }
-
 
 .avatar img {
     border-radius: 100%;
     width: 8em;
     height: auto;
     padding-top: 1em;
-    border: lightgrey;
-    
+    border: lightgrey; 
 }
 
 .avatar {
     margin-left: 3em;
-
 }
 
 nav {
@@ -141,16 +131,6 @@ nav a {
     min-width: 100%;
     height:16em;
    
-}
-
-@media only screen and (max-width: 470px) {
-    nav {
-        display: block;
-    }
-
-    .social {
-   justify-content: center;
-    }
 }
 
 .name {
@@ -174,18 +154,6 @@ nav a {
 .technologies {
     max-block-size: 46em;
     
-}
-
-
-
-
-
-
-@media only screen and (max-width: 470px) {
-
-    .technologies {
-        size: 20%;
-    }
 }
 
 .licences {
@@ -220,9 +188,20 @@ nav a {
 }
 
 @media only screen and (max-width: 470px) {
-    .under {
-        font-size: 2.5em;
-        justify-content: center;
+    .social {
+        display: flex;
+        flex-direction: column;
+        width: 4em;
+    }
+
+    .avatar img{
+        width: 4em;
+        height: auto;
+        margin-left: 1em;
+    }
+
+    .name {
+        margin-top: 6em;
     }
 }    
 
