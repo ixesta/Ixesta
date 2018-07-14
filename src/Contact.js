@@ -3,15 +3,20 @@ import React, { Component } from 'react'
 class Contact extends Component {
   render() {
     return (
-      <div>
-        <div class="talk">
-          <p>Have a question or want to work together?</p>
-        </div>
-        <div>
-          <a href="https://www.linkedin.com/in/rocio-membrilla" target="_blank">
-            <img className='linkedin' src="./linkedin2.png" alt="Message" />
-          </a>
-        </div>
+      <div class='form-container'>
+        <iframe
+          class="form"
+          id="JotFormIFrame-81943877197374"
+          onload="window.parent.scrollTo(0,0)"
+          allowtransparency="true"
+          allowfullscreen="true"
+          allow="geolocation;"
+          src="https://form.jotformeu.com/81943877197374"
+          frameborder="0"
+          scrolling="yes"
+        >
+        </iframe>
+
       </div>
     )
 
