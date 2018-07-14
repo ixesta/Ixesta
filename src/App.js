@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-// import './App.css';
-import './App2.css';
+import './reset.css'
+import './App.css';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Home from './Home';
 import Portfolio from './Portfolio';
