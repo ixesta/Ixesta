@@ -230,10 +230,10 @@ nav a {
     }
 }    
 
-/* @media only screen and (max-width: 1280px) and (min-width:470){
-    html {
-        margin: 1em 9em 1em 9em;
-    } */
+@media only screen and (max-width: 1024px) and (min-width:470) {
 
-/* } */
+    html {
+        margin: 1em 4em 1em 4em;
+    }
+}
 
