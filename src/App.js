@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import './reset.css';
 import './App.css';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Home from './Home';
@@ -47,7 +46,7 @@ class App extends Component {
               <Link to="/portfolio">portfolio</Link>
             </p>
             <p>
-              {/* <Link to="/contact">contact</Link> */}
+            
               
     <a href="javascript:void(window.open(
           'https://form.jotformeu.com/81943877197374',
@@ -61,7 +60,6 @@ class App extends Component {
 
           <Route exact path="/" component={Home} />
           <Route exact path="/portfolio" component={Portfolio} />
-          {/* <Route exact path="/contact" component={Contact} /> */}
         </div>
       </Router>
     )

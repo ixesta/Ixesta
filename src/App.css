@@ -14,19 +14,12 @@ a {
     text-align: center;
 }
 
-/* a:hover {
-    color: black;
-    font-size: 1.2em;
-} */
-
 .social {
     display: flex;
     justify-content: space-between;
     height: 3em;
     width: auto;
 }
-
-
 
 .social img {
     height: 2.2em;
@@ -45,7 +38,6 @@ a {
 }
 
 .card {
-
     width: 30%;
     height: 15em;
     background-color: rgb(179, 178, 178);
@@ -162,14 +154,7 @@ nav a {
     color:darkcyan;
     font-size: 2em;
 }
-
-/* .about p {
-   margin: 0 3em 0 3em;
-    color: white;
-    font-size: 1.5em;
-}     */
     
-
 @media only screen and (max-width: 470px) {
     html {
         margin: auto;
@@ -178,8 +163,7 @@ nav a {
     .social .social-icons{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        
+        justify-content: space-between; 
     }
 
     .social {
@@ -199,31 +183,31 @@ nav a {
     }
 
     .technologies {
-    max-block-size: 35em;
+        max-block-size: 35em;
     }
 
     nav a {
-    font-size: 1em;
+        font-size: 1em;
     }
 
     .name {
-    font-size: 2.5em;
-    color: darkcyan;
-    font-weight: bold;
-    letter-spacing: 0.2em;
+        font-size: 2.5em;
+        color: darkcyan;
+        font-weight: bold;
+        letter-spacing: 0.2em;
     }
 
     .cards {
-    width: auto;
-    flex-direction: column;
+        width: auto;
+        flex-direction: column;
     }
 
     .card-name {
-    font-size: 2em;
+        font-size: 2em;
     }
    
     .card-description {
-    font-size: 1em;
+        font-size: 1em;
     }
 
     .card-image {
@@ -235,9 +219,9 @@ nav a {
     }
 
     .card-content, .card-name{
-    margin: auto;
-    text-align: center;
-}
+        margin: auto;
+        text-align: center;
+    }
 }    
 
 @media only screen and (max-width: 1441px) and (min-width:470px) {
@@ -270,15 +254,15 @@ nav a {
 
 
     .name {
-    font-size: 2.5em;
-    color: darkcyan;
-    font-weight: bold;
-    letter-spacing: 0.2em;
+        font-size: 2.5em;
+        color: darkcyan;
+        font-weight: bold;
+        letter-spacing: 0.2em;
     }
 
     .cards {
-    width: auto;
-    flex-direction: column;
+        width: auto;
+        flex-direction: column;
     }
 
    .card {
@@ -290,7 +274,7 @@ nav a {
     }
    
     .card-description {
-    font-size: 1em;
+        font-size: 1em;
     }
 
     .card-image {
@@ -302,8 +286,8 @@ nav a {
     }
 
     .card-content, .card-name{
-    margin: auto;
-    text-align: center;
+        margin: auto;
+        text-align: center;
     }
 }
 
@@ -357,6 +341,7 @@ a:hover {
 		animation-iteration-count: 1;
 	}
 
+
     /* Pulse */
 @keyframes pulse {
 	25% {
@@ -379,6 +364,7 @@ a:hover {
 		animation-iteration-count: infinite;
 	}
 
+    
 /* Pop */
 @keyframes pop {
 	50% {

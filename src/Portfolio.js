@@ -12,7 +12,6 @@ class Portfolio extends Component {
           <div class="card-content">
             <p class="card-name">Tripster</p>
 
-
             <p>
               <a href="/tripster.mp4" target="_blank">
                 <img class="video-icon" src="./video.png" alt="Promotional video" />
@@ -39,6 +38,7 @@ class Portfolio extends Component {
                 <img class="video-icon" src="./http.png" alt="Web" />
               </a>
             </p>
+
             <p>
               <a href="https://github.com/ixesta/NC-News-FE" target="_blank">
                 <img class="video-icon" src="./coding.png" alt="GitHub" />
