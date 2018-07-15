@@ -53,6 +53,7 @@ a:hover {
     border: .16em solid yellow;
     display: flex;
     margin-left: 4em;
+    box-shadow: 1em 1em darkcyan;
 }
 
 .cards {
