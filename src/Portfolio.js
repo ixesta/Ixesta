@@ -31,13 +31,11 @@ class Portfolio extends Component {
 
         <div class="card">
 
-
-
           <div class="card-content">
             <p class="card-name">NC News</p>
 
             <p >
-              <a class="card-text" href="https://ro-nc-app.herokuapp.com/" target="_blank">
+              <a class="card-text" href="https://ncnews.netlify.com" target="_blank">
                 <img class="video-icon" src="./http.png" alt="Web" />
               </a>
             </p>
@@ -48,8 +46,29 @@ class Portfolio extends Component {
             </p>
 
           </div>
+
         </div>
 
+
+        <div class="card">
+
+          <div class="card-content">
+            <p class="card-name">NC News (API)</p>
+
+            <p >
+              <a class="card-text" href="https://ro-nc-news.herokuapp.com/" target="_blank">
+                <img class="video-icon" src="./http.png" alt="Web" />
+              </a>
+            </p>
+            <p>
+              <a href="https://github.com/ixesta/NC-News_BE" target="_blank">
+                <img class="video-icon" src="./coding.png" alt="GitHub" />
+              </a>
+            </p>
+
+          </div>
+
+        </div>
 
       </div>
     )
