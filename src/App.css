@@ -230,7 +230,7 @@ nav a {
     }
 }    
 
-@media only screen and (max-width: 1024px) and (min-width:470) {
+@media only screen and (max-width: 1024px) and (min-width:470px) {
 
     html {
         margin: 1em 4em 1em 4em;
