@@ -6,7 +6,7 @@ class Home extends Component {
       <div>
 
         <div class="name">
-          <p>I'm Ixesta</p>
+          <p>Hi, I'm Rocio</p>
         </div>
 
         <div class="learning">
