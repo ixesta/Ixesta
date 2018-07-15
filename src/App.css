@@ -38,8 +38,8 @@ a:hover {
 .video-icon {
     height: 3em;
     width: auto;
-    padding: 1em;
     
+   
 }
 
 .card {
@@ -50,7 +50,7 @@ a:hover {
     background-color: rgb(179, 178, 178);
     border-radius: 3%;
     margin-left: 3em;
-    border: .16em solid darkcyan;
+    border: .16em solid yellow;
     display: flex;
     margin-left: 4em;
 }

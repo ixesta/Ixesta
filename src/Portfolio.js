@@ -21,7 +21,7 @@ class Portfolio extends Component {
 
             <p>
               <a href="https://github.com/ixesta/Tripster" target="_blank" rel="noopener noreferrer">
-                <img class="video-icon" src="./code.png" alt="GitHub" />
+                <img class="video-icon" src="./coding.png" alt="GitHub" />
               </a>
             </p>
 
@@ -43,7 +43,7 @@ class Portfolio extends Component {
             </p>
             <p>
               <a href="https://github.com/ixesta/NC-News-FE" target="_blank">
-                <img class="video-icon" src="./code.png" alt="GitHub" />
+                <img class="video-icon" src="./coding.png" alt="GitHub" />
               </a>
             </p>
 
