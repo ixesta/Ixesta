@@ -73,16 +73,6 @@ a {
     color: darkcyan;
 }
 
-.card-description {
-    font-size: 1.2em;
-    font-weight: bold;
-    color: darkcyan;
-}
-
-.card-reveal {
-    color: darkcyan;
-}
-
 .card-text {
     color: darkcyan;
 }
@@ -201,17 +191,12 @@ nav a {
         width: auto;
         flex-direction: column;
     }
+    .card {
+        width: 60%;
+    }
 
     .card-name {
         font-size: 2em;
-    }
-   
-    .card-description {
-        font-size: 1em;
-    }
-
-    .card-image {
-        margin-right: 2em;
     }
 
     .cards, .card {
@@ -229,7 +214,7 @@ nav a {
     html {
         margin: 1em 8em 1em 8em;
     }
-     .social .social-icons{
+    .social .social-icons{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -266,8 +251,8 @@ nav a {
     }
 
    .card {
-       width: 30%;
-   }
+        width: 60%;
+    }
 
     .card-name {
         font-size: 2em;
