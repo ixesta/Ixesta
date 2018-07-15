@@ -27,10 +27,11 @@ a:hover {
 }
 
 .social img {
-    
-    height: 3em;
+    height: 1.5em;
+    padding: .5em;
+    /* height: 3em; */
     width: auto;
-    padding: 1em;
+    /* padding: 1em; */
     border: .16em solid darkcyan;
     border-radius: 100%;
     margin-right: 1em;
@@ -42,6 +43,7 @@ a:hover {
 }
 
 .card {
+
     width: 30%;
     height: 15em;
     background-color: rgb(179, 178, 178);
