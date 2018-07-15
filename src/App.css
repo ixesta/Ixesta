@@ -234,5 +234,68 @@ nav a {
     html {
         margin: 1em 4em 1em 4em;
     }
+     .social .social-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+
+    .social {
+        margin-bottom: 2em;
+    }
+
+    .social img {
+        height: 1.5em;
+        padding: .5em;
+        border: .1em solid darkcyan;
+    }
+
+    .avatar img{
+        width: 4em;
+        height: auto;
+        border: lightgrey; 
+    }
+
+    .technologies {
+    max-block-size: 35em;
+    }
+
+    nav a {
+    font-size: 1em;
+    }
+
+    .name {
+    font-size: 2.5em;
+    color: darkcyan;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    }
+
+    .cards {
+    width: auto;
+    flex-direction: column;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    .card-name {
+        font-size: 1em;
+    }
+
+    .card-image {
+        margin-right: 2em;
+    }
+
+    .cards, .card {
+        margin: 1em auto;
+    }
+
+    .cards .card .card-content {
+        /* margin: 1em; */
+        margin-left: 0em;
+    }
 }
 
