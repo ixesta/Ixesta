@@ -210,7 +210,11 @@ nav a {
     }
 
     .card-name {
-        font-size: 1em;
+    font-size: 2em;
+    }
+   
+    .card-description {
+    font-size: 1em;
     }
 
     .card-image {
@@ -221,10 +225,10 @@ nav a {
         margin: 1em auto;
     }
 
-    .cards .card .card-content {
-        /* margin: 1em; */
-        margin-left: 0em;
-    }
+    .card-content, .card-name{
+    margin: auto;
+    text-align: center;
+}
 }    
 
 @media only screen and (max-width: 1441px) and (min-width:470px) {
@@ -273,7 +277,11 @@ nav a {
    }
 
     .card-name {
-        font-size: 1em;
+        font-size: 2em;
+    }
+   
+    .card-description {
+    font-size: 1em;
     }
 
     .card-image {
@@ -284,9 +292,9 @@ nav a {
         margin: 1em auto;
     }
 
-    .cards .card .card-content {
-        /* margin: 1em; */
-        margin-left: 0em;
+    .card-content, .card-name{
+    margin: auto;
+    text-align: center;
     }
 }
 
