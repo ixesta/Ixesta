@@ -257,13 +257,6 @@ nav a {
         border: lightgrey; 
     }
 
-    .technologies {
-    max-block-size: 35em;
-    }
-
-    nav a {
-    font-size: 1em;
-    }
 
     .name {
     font-size: 2.5em;
