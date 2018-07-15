@@ -35,6 +35,13 @@ a:hover {
     margin-right: 1em;
 }
 
+.video-icon {
+    height: 3em;
+    width: auto;
+    padding: 1em;
+    
+}
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
