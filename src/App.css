@@ -166,8 +166,11 @@ nav a {
     }
 
     .technologies {
-        width: 23em;
-        height: 23em;
+        display: block;
+        max-width:25em;
+        max-height:20em;
+        width: auto;
+        height: auto;
     }
     
 
