@@ -118,11 +118,11 @@ nav a {
     letter-spacing: 0.2em;
 }
 
-.learning {
+/* .learning {
     font-size: 2em;
     color:darkcyan;
     text-align: center;
-}
+} */
 
 .tech-container {
     display: flex;
@@ -166,12 +166,10 @@ nav a {
     }
 
     .technologies {
-        
+        width: 23em;
+        height: 23em;
     }
     
-    .tech-container {
-        width: 50%;
-    }
 
     nav a {
         font-size: 1em;
