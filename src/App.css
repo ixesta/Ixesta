@@ -1,10 +1,9 @@
 body {
     width: 80%;
-    margin: 0 auto;
+    margin: 0;
 }
 
 html {
-    background-color: rgb(179, 178, 178);
     font-family: sans-serif;
     background-image: url('./image.jpg');
     background-size: cover;                      
