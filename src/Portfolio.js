@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 class Portfolio extends Component {
   render() {
@@ -6,9 +6,7 @@ class Portfolio extends Component {
       <div class='cards'>
 
         <div class="card">
-          <div>
 
-          </div>
           <div class="card-content">
             <p class="card-name">Tripster</p>
 

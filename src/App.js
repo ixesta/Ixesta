@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <Router>
         <div>
-
+          
           <div className='social'>
 
             <div class="avatar">
