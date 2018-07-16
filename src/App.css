@@ -1,8 +1,15 @@
+body {
+    width: 80%;
+    margin: auto;
+}
+
 html {
     background-color: rgb(179, 178, 178);
     font-family: sans-serif;
-    margin: 1em 30em 1em 30em;
-    background-image: url('./image.jpg')
+    background-image: url('./image.jpg');
+    background-size: cover;                      
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 a {
@@ -131,6 +138,9 @@ nav a {
 
 .technologies {
     max-block-size: 80%;
+    border: .16em solid yellow;
+    border-radius: 3%;
+
 }
 
 .talk {
