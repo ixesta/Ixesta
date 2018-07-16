@@ -8,8 +8,8 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div>
-          
+        <div class='general'>
+
           <div className='social'>
 
             <div class="avatar">

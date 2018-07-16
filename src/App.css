@@ -1,18 +1,25 @@
 body {
-    background-image: url('./image.jpg');
+    /* background-image: url('./background.jpg');
     background-size: cover;                      
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
     margin: 0;
     height: 100%;
+    
 }
 
 html {
     font-family: sans-serif;
-   
     background-color: #26292F;
     height: 100%;
-    
+       
+
+     
+}
+
+.general {
+    width: 80%;
+    margin: auto;
 }
 
 a {
@@ -219,8 +226,11 @@ nav a {
     }
 }    
 
-@media only screen and (max-width: 1441px) and (min-width:470px) {
+@media only screen and (min-width: 471px) and (max-width:1399px) {
 
+    html {
+        height: 100%;
+    }
     
 
     .social .social-icons{
@@ -284,11 +294,11 @@ nav a {
     }
 }
 
-.float {
+/* .float {
 	display: inline-block;
 	transition-duration: 3s;
 	transition-property: transform;
-}
+} */
 
 a:hover {
     display: inline-block;
