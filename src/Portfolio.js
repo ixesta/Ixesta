@@ -13,7 +13,7 @@ class Portfolio extends Component {
             <p class="card-name">Tripster</p>
 
             <p>
-              <a href="/tripster.mp4" target="_blank" rel="noopener noreferrer">
+              <a href="/tripster.mp4" target="_blank">
                 <img class="video-icon" src="./video.png" alt="Promotional video" />
               </a>
             </p>
