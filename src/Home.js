@@ -8,13 +8,8 @@ class Home extends Component {
         <div class="name">
           <p>Hi, I'm Rocio</p>
         </div>
-
-        <div class="learning">
-          <p>Software developer</p>
-        </div>
         <div class='tech-container'>
-          <img className="technologies" src="./portfolio.jpg" alt="Technologies" />
-
+          <img className="technologies" src="./chart.png" alt="Technologies" />
         </div>
       </div>
     )

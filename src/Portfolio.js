@@ -13,7 +13,7 @@ class Portfolio extends Component {
             <p class="card-name">Tripster</p>
 
             <p>
-              <a href="/tripster.mp4" target="_blank">
+              <a href="/tripster.mp4" target="_blank" rel="noopener noreferrer">
                 <img class="video-icon" src="./video.png" alt="Promotional video" />
               </a>
             </p>
@@ -34,13 +34,13 @@ class Portfolio extends Component {
             <p class="card-name">NC News</p>
 
             <p >
-              <a class="card-text" href="https://ncnews.netlify.com" target="_blank">
+              <a class="card-text" href="https://ncnews.netlify.com" target="_blank" rel="noopener noreferrer">
                 <img class="video-icon" src="./http.png" alt="Web" />
               </a>
             </p>
 
             <p>
-              <a href="https://github.com/ixesta/NC-News-FE" target="_blank">
+              <a href="https://github.com/ixesta/NC-News-FE" target="_blank" rel="noopener noreferrer">
                 <img class="video-icon" src="./coding.png" alt="GitHub" />
               </a>
             </p>
@@ -56,12 +56,12 @@ class Portfolio extends Component {
             <p class="card-name">NC News (API)</p>
 
             <p >
-              <a class="card-text" href="https://ro-nc-news.herokuapp.com/" target="_blank">
+              <a class="card-text" href="https://ro-nc-news.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                 <img class="video-icon" src="./http.png" alt="Web" />
               </a>
             </p>
             <p>
-              <a href="https://github.com/ixesta/NC-News_BE" target="_blank">
+              <a href="https://github.com/ixesta/NC-News_BE" target="_blank" rel="noopener noreferrer">
                 <img class="video-icon" src="./coding.png" alt="GitHub" />
               </a>
             </p>

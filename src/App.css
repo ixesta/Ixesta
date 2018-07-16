@@ -2,6 +2,7 @@ html {
     background-color: rgb(179, 178, 178);
     font-family: sans-serif;
     margin: 1em 30em 1em 30em;
+    background-image: url('./image.jpg')
 }
 
 a {
@@ -38,7 +39,7 @@ a {
 .card {
     width: 30%;
     height: 15em;
-    background-color: rgb(179, 178, 178);
+    background-color: rgb(29, 27, 27);
     border-radius: 3%;
     margin-left: 3em;
     border: .16em solid yellow;
@@ -84,10 +85,10 @@ a {
     max-block-size: 15em;
 }
 
-.talk {
+/* .talk {
     display: flex;
     justify-content: center;
-}
+} */
 
 .avatar img {
     border-radius: 100%;
