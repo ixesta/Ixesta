@@ -39,7 +39,7 @@ a {
 .card {
     width: 30%;
     height: 15em;
-    background-color: rgb(29, 27, 27);
+    background-color: #26292F;
     border-radius: 3%;
     margin-left: 3em;
     border: .16em solid yellow;
@@ -84,11 +84,6 @@ a {
 .link {
     max-block-size: 15em;
 }
-
-/* .talk {
-    display: flex;
-    justify-content: center;
-} */
 
 .avatar img {
     border-radius: 100%;
@@ -135,8 +130,7 @@ nav a {
 }
 
 .technologies {
-    max-block-size: 46em;
-    
+    max-block-size: 80%;
 }
 
 .talk {
@@ -172,7 +166,11 @@ nav a {
     }
 
     .technologies {
-        max-block-size: 35em;
+        
+    }
+    
+    .tech-container {
+        width: 50%;
     }
 
     nav a {
