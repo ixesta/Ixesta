@@ -13,7 +13,7 @@ class Portfolio extends Component {
             <p class="card-name">Tripster</p>
 
             <p>
-              <a href="/tripster.mp4" target="_blank">
+              <a href="https://player.vimeo.com/video/280276226" target="_blank">
                 <img class="video-icon" src="./video.png" alt="Promotional video" />
               </a>
             </p>
@@ -26,6 +26,10 @@ class Portfolio extends Component {
 
           </div>
         </div>
+
+        {/* <iframe src="https://player.vimeo.com/video/280276226" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <p><a href="https://vimeo.com/280276226">Tripster promo</a> from <a href="https://vimeo.com/user87379371">Roc&iacute;o</a> on <a href="https://vimeo.com">Vimeo</a>.</p> */}
+
 
 
         <div class="card">
