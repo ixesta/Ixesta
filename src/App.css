@@ -138,7 +138,9 @@ nav a {
     
 @media only screen and (max-width: 470px) {
 
-
+    html {
+        height: 110%;
+    }
     .social .social-icons{
         display: flex;
         flex-direction: row;
@@ -207,7 +209,7 @@ nav a {
 @media only screen and (min-width: 471px) and (max-width:1399px) {
 
     html {
-        height: 130%;
+        height: 60%;
     }
     
 
