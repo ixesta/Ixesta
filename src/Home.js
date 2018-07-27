@@ -7,10 +7,11 @@ class Home extends Component {
 
         <div class="name">
           <p>Hi, I'm Rocio</p>
+          <p>rocio@ixesta.com</p>
         </div>
-        <div class='tech-container'>
+        {/* <div class='tech-container'>
           <img className="technologies" src="./chart.png" alt="Technologies" />
-        </div>
+        </div> */}
       </div>
     )
 

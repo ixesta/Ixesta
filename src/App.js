@@ -41,13 +41,13 @@ class App extends Component {
 
 
           <nav class="nav_bar">
-            <p>
+            {/* <p>
               <Link to="/portfolio">portfolio</Link>
-            </p>
-            <p>
-            
-              
-    <a href="javascript:void(window.open(
+            </p> */}
+
+
+            <p>   
+               <a href="javascript:void(window.open(
           'https://form.jotformeu.com/81943877197374',
           'blank',
           'scrollbars=yes,
@@ -58,7 +58,7 @@ class App extends Component {
           </nav>
 
           <Route exact path="/" component={Home} />
-          <Route exact path="/portfolio" component={Portfolio} />
+          {/* <Route exact path="/portfolio" component={Portfolio} /> */}
         </div>
       </Router>
     )
