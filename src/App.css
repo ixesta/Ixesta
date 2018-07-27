@@ -21,7 +21,7 @@ html {
 
 a {
     text-decoration: none;
-    color: darkcyan;
+    color: yellow;
 }
 
 .name{
@@ -115,7 +115,7 @@ nav a {
 
 .name {
     font-size: 3.5em;
-    color: darkcyan;
+    color: yellow;
     font-weight: bold;
     letter-spacing: 0.2em;
 }
